@@ -12,13 +12,8 @@
   ],
   "routes": [
     {
-      "src": "/static/(.*)",
-      "dest": "/staticfiles/$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "college_permission_system/wsgi.py"
     }
-  ],
-  "outputDirectory": "."
+  ]
 }
